@@ -15,6 +15,26 @@ After compilation, execute the program by typing the following command:
 
 `java application.Program`
 
+## Limitations
+
+The simulator has certain limitations regarding its memory and the number of instructions it can handle. Currently, it is designed to work with a maximum of 250 memory positions and can accommodate up to 250 instructions. These limitations are due to the initial configuration of the `posicoes`, `opcode`, `op1`, and `op2` arrays.
+
+The `posicoes` array represents the memory positions, and the `opcode`, `op1`, and `op2` arrays store information about the instructions. While these arrays are set to handle 250 elements, it's important to note that these values can be modified to suit different requirements.
+
+For instance, if you need more memory positions or the ability to handle more instructions, you can adjust the size of these arrays accordingly. However, keep in mind that increasing the size of these arrays will also impact the memory usage and processing time of the simulator.
+
+To make changes to the limitations, you can modify the array sizes like this:
+
+`public class Simulator extends Program {
+    public double[] posicoes = new double[MAX_MEMORY_SIZE]; // Adjust MAX_MEMORY_SIZE as needed
+    public String[] opcode = new String[MAX_INSTRUCTIONS];   // Adjust MAX_INSTRUCTIONS as needed
+    public int[] op1 = new int[MAX_INSTRUCTIONS];            // Adjust MAX_INSTRUCTIONS as needed
+    public int[] op2 = new int[MAX_INSTRUCTIONS];            // Adjust MAX_INSTRUCTIONS as needed
+    // Other fields and methods...
+}`
+
+By adjusting `MAX_MEMORY_SIZE` and `MAX_INSTRUCTIONS` to larger values, you can expand the memory capacity and the number of instructions that the simulator can handle. Just remember that larger arrays will require more memory and may affect performance, so it's important to strike a balance based on your simulation's requirements
+
 ## Program Usage
 
 When you run the program, you will see a menu with various options. Select the option corresponding to what you want to do:
