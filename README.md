@@ -25,13 +25,11 @@ For instance, if you need more memory positions or the ability to handle more in
 
 To make changes to the limitations, you can modify the array sizes like this:
 
-`public class Simulator extends Program {
-    public double[] posicoes = new double[MAX_MEMORY_SIZE]; // Adjust MAX_MEMORY_SIZE as needed
-    public String[] opcode = new String[MAX_INSTRUCTIONS];   // Adjust MAX_INSTRUCTIONS as needed
-    public int[] op1 = new int[MAX_INSTRUCTIONS];            // Adjust MAX_INSTRUCTIONS as needed
-    public int[] op2 = new int[MAX_INSTRUCTIONS];            // Adjust MAX_INSTRUCTIONS as needed
-    // Other fields and methods...
-}`
+
+    `public double[] posicoes = new double[MAX_MEMORY_SIZE]; // Adjust MAX_MEMORY_SIZE as needed`
+    `public String[] opcode = new String[MAX_INSTRUCTIONS];   // Adjust MAX_INSTRUCTIONS as needed`
+    `public int[] op1 = new int[MAX_INSTRUCTIONS];            // Adjust MAX_INSTRUCTIONS as needed`
+    `public int[] op2 = new int[MAX_INSTRUCTIONS];            // Adjust MAX_INSTRUCTIONS as needed`
 
 By adjusting `MAX_MEMORY_SIZE` and `MAX_INSTRUCTIONS` to larger values, you can expand the memory capacity and the number of instructions that the simulator can handle. Just remember that larger arrays will require more memory and may affect performance, so it's important to strike a balance based on your simulation's requirements
 
