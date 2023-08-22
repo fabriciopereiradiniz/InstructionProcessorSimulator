@@ -3,15 +3,15 @@ This project was developed as part of the "Computer Architecture and Organizatio
 
 ## Compilation and Execution of the Program
 
-Make sure you have the Java Development Kit (JDK) installed on your machine. Open a terminal or command prompt and navigate to the directory where the program source file (`Program.java`) is located.
+Make sure you have the Java Development Kit (JDK) installed on your machine. Open a terminal or command prompt and navigate to the directory where the program folder `scr` is located.
 
 Compile the source code by entering the following command:
 
-`javac Program.java`
+`javac entities/Simulator.java application/Program.java`
 
 After compilation, execute the program by typing the following command:
 
-`java Program`
+`java application.Program`
 
 ## Program Usage
 
