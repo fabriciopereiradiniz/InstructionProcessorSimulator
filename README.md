@@ -3,7 +3,6 @@
 | ![instruction_process](https://i.imgur.com/1jZRPKp.gif) | This project was developed as part of the "Computer Architecture and Organization" course to provide a hands-on experience with the fundamental concepts of instruction processing. The simulator allows you to explore the inner workings of a simplified processor, focusing on instruction fetching, decoding, and execution. Check the technical report [HERE](./relatorio.pdf). |
 |---|---|
 
-Check the technical report [HERE](./relatorio.pdf).
 ## Compilation and Execution of the Program
 
 Make sure you have the Java Development Kit (JDK) installed on your machine. Open a terminal or command prompt and navigate to the directory where the program folder `scr` is located.
