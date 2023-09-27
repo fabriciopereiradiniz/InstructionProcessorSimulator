@@ -18,7 +18,7 @@ After compilation, execute the program by typing the following command:
 </div>
 
 <div align="right">
-[java](https://i.imgur.com/wu5eh6H.gif)
+![java](https://i.imgur.com/wu5eh6H.gif)
 </div>
 
 ## Limitations
